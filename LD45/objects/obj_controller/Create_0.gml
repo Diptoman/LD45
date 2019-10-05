@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
+difficulty = 1;
 
-attachStrength = 0.1
-attachTime = 120
-xSpeed = 6 + random(2);
+stage = 2;
+
+alarm_set(0, 60);
