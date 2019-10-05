@@ -14,8 +14,8 @@ if (lerpAttached==0)
 }
 else if lerpAttached == 1
 {
-	x = lerp(x, obj_MainShip.x + attachX, attachStrength)
-	y = lerp(y, obj_MainShip.y + attachY, attachStrength)
+	x = lerp(x, obj_MainShip.x + attachX, attachStrength);
+	y = lerp(y, obj_MainShip.y + attachY, attachStrength);
 }
 
 else if attached == 2
