@@ -12,9 +12,11 @@ if (lerpAttached==0)
 		x -= xSpeed;
 	}
 }
-else if lerpAttached == 1
+else if (lerpAttached == 1)
 {
-	x = lerp(x, obj_MainShip.x + attachX, attachStrength);
+	attachX = x - obj_MainShip.x;
+	attachY = y - obj_MainShip.y;
+	x = lerp(x, obj_MainShip.x + attachX, attachStrength) - xSpeed;
 	y = lerp(y, obj_MainShip.y + attachY, attachStrength);
 }
 
