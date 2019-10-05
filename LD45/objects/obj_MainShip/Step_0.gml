@@ -14,5 +14,15 @@ else if keyboard_check(vk_right)
 else if abs(speedX)>0
 	speedX -= speedX/abs(speedX)*brake
 
+if (speedX > maxSpeed)
+	speedX = maxSpeed;
+else if (speedX < -maxSpeed)
+	speedX = -maxSpeed;
+
+if (speedY > maxSpeed)
+	speedY = maxSpeed;
+else if (speedY < -maxSpeed)
+	speedY = -maxSpeed;
+
 x += speedX
 y +=speedY
