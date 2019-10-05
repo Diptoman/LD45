@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "33bb3006-74f4-444f-bac9-d0829dac337c",
+            "Value": {
+                "id": "4d369edc-8004-441a-9610-6c7eabbbfc95",
+                "resourcePath": "objects\\obj_MainShip\\obj_MainShip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35dbd478-c4c6-4353-a20b-2e2368e432f4",
             "Value": {
                 "id": "0f7db30c-7bec-4abc-934b-acb6465ac529",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "4e27eac3-7a94-4b19-9e20-04bc2bb4dffc",
+            "Value": {
+                "id": "c3cca9ce-ea85-4798-b21d-26e94bc63b6d",
+                "resourcePath": "objects\\obj_BasicShip\\obj_BasicShip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5855927c-2c7b-4fce-b8ba-96f3da3f4124",
             "Value": {
                 "id": "0b9c6f34-305c-4907-b4c5-a43a01eea411",
@@ -119,6 +135,14 @@
             }
         },
         {
+            "Key": "8e730742-7945-45e4-a58a-5a2368de212e",
+            "Value": {
+                "id": "ab44274e-73d0-477d-8a28-ea780f95f179",
+                "resourcePath": "sprites\\spr_BasicShip\\spr_BasicShip.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92fe708d-3719-4b80-9d06-280f663c08cd",
             "Value": {
                 "id": "59e0d043-4137-4d3d-896d-8735914b1e44",
@@ -127,11 +151,27 @@
             }
         },
         {
+            "Key": "9642c015-40c9-4b9b-af25-c82f70ed4aa6",
+            "Value": {
+                "id": "bc2b5a5f-a3aa-4571-ae12-ba7e6cf0da53",
+                "resourcePath": "sprites\\spr_Circle\\spr_Circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "71631603-b99a-4219-b54c-a2008a581421",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acf73b86-4d3c-4ccc-aa8b-2a296ef247a6",
+            "Value": {
+                "id": "e1ea0ec9-08bd-4ac3-a6d2-2deff7763858",
+                "resourcePath": "views\\acf73b86-4d3c-4ccc-aa8b-2a296ef247a6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -164,6 +204,14 @@
                 "id": "afdec66f-1ec0-4dd8-99bb-a0b69f84ab2a",
                 "resourcePath": "views\\c59879ba-dbed-45b2-a33b-f9bed56e55e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c8cb09d0-8565-4298-9c00-88c6866b8920",
+            "Value": {
+                "id": "fc237ccb-e37d-4c9d-9bd3-1a1fa6e66df3",
+                "resourcePath": "sprites\\spr_MainShip\\spr_MainShip.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
