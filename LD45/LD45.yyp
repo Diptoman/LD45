@@ -482,7 +482,7 @@
             "Key": "3be4d824-e3eb-47d4-ac2f-5cee87a9f080",
             "Value": {
                 "id": "c808b625-cd02-4ddb-bbbe-8ba32dec0d3b",
-                "resourcePath": "sprites\\z_emptySprite2\\z_emptySprite2.yy",
+                "resourcePath": "sprites\\spr_UI_ProgressBar\\spr_UI_ProgressBar.yy",
                 "resourceType": "GMSprite"
             }
         },
