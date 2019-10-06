@@ -24,5 +24,14 @@ if (speedY > maxSpeed)
 else if (speedY < -maxSpeed)
 	speedY = -maxSpeed;
 
+if (x + speedX + currentMaxXOffset > room_width)
+	speedX = 0;
+if (x + speedX - currentMinXOffset < 0)
+	speedX = 0;
+if (y + speedY + currentMaxYOffset > room_height)
+	speedY = 0;
+if (y + speedY - currentMinYOffset < 0)
+	speedY = 0;
+
 x += speedX
-y +=speedY
+y += speedY

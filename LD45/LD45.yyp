@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "68058a64-027e-4f25-a597-f80f84a8f291",
+            "Value": {
+                "id": "ec03f2c9-97ef-4d2e-93a9-3399720f9e8a",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68275771-4f7a-4d1c-b287-cb5b814d1fca",
             "Value": {
                 "id": "4c0cf34d-a775-46bb-ae9e-2cbcfcfd5751",
@@ -1356,6 +1364,14 @@
                 "id": "d79b43ac-c82e-4e12-8aa0-f0dda37d9294",
                 "resourcePath": "scripts\\EaseInOutQuad\\EaseInOutQuad.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a04ca5f1-aaa9-4e08-8d3d-3ecc89340fbe",
+            "Value": {
+                "id": "ae358435-07f7-4cb1-8277-4ce95dec0abe",
+                "resourcePath": "objects\\obj_shieldShip\\obj_shieldShip.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2140,6 +2156,14 @@
                 "id": "79572c0d-5cd3-4c5e-982e-89b357637aad",
                 "resourcePath": "scripts\\TGMS_BuildDefaultProperties\\TGMS_BuildDefaultProperties.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "faefbaa2-8c8c-4e79-801c-d1d7b66cefe5",
+            "Value": {
+                "id": "6f9d679a-0778-49e1-b522-3eb4d422ba57",
+                "resourcePath": "objects\\obj_shield\\obj_shield.yy",
+                "resourceType": "GMObject"
             }
         },
         {

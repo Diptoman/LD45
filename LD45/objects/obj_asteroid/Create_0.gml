@@ -9,16 +9,3 @@ targetX = floor(random(96));
 
 direction = point_direction(x, y, targetX, targetY);
 speed = 4 + random(2) + min((obj_controller.difficulty / 4), 4);
-
-if (size == 1)
-{
-	sprite_index = spr_asteroid1;
-}
-else if (size == 2)
-{
-	sprite_index = spr_asteroid2;
-}
-else if (size == 3)
-{
-	sprite_index = spr_asteroid3;
-}
