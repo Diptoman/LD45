@@ -1,1 +1,1 @@
-life = 20
+var life
