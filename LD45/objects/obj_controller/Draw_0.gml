@@ -9,5 +9,4 @@ if (stage == 2)
 	{
 		draw_sprite(spr_UI_ProgressBar, 0, -335 + 8 + 335*(perStageTime / maxStageTime) + i*384, room_height - 32);
 	}
-	show_debug_message(string(perStageTime));
 }
