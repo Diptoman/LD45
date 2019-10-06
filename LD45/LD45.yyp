@@ -1743,6 +1743,14 @@
             }
         },
         {
+            "Key": "bf64633d-6baa-4d51-a777-5890551ab7eb",
+            "Value": {
+                "id": "aee0a221-ee5d-4c0b-a0ac-5e81169cf69b",
+                "resourcePath": "sprites\\spr_Title\\spr_Title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfd6247b-b523-4018-9e44-544a1862dda3",
             "Value": {
                 "id": "7b6a3d1a-eaf2-44fc-b5cc-950b787f5f48",
