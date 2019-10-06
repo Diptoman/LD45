@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1113a214-1e57-402a-a3b9-544be1942165",
+            "Value": {
+                "id": "b0a4428c-cc73-427b-9e43-eff142153a3c",
+                "resourcePath": "sprites\\spr_particle1\\spr_particle1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12210f76-e833-4c28-93eb-7eba2ac05f74",
             "Value": {
                 "id": "7381f7b9-dc68-446e-97d8-5384aaa42d3c",
@@ -364,6 +372,14 @@
                 "id": "56de9cd2-f50a-4c3a-997b-d573dd3ca5df",
                 "resourcePath": "scripts\\SharedTweener\\SharedTweener.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2ca54afb-57a5-40ff-8579-0944e0a510a8",
+            "Value": {
+                "id": "5f8bd9d5-bb2f-406d-8a17-4282062a67dd",
+                "resourcePath": "sprites\\spr_planet\\spr_planet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2012,6 +2028,14 @@
                 "id": "de5b9289-4ea3-4e6b-af92-73ebaa4491b0",
                 "resourcePath": "scripts\\TGMS_TweenCreate\\TGMS_TweenCreate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e96c4eda-e014-43fe-972b-893cab16ea6d",
+            "Value": {
+                "id": "7eec42b7-6035-4b13-a021-2b34843d27e7",
+                "resourcePath": "sprites\\spr_particle2\\spr_particle2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
