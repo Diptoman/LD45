@@ -9,7 +9,7 @@ maxStarSize = 0.5
 
 
 starYoffset = 0 //for vertical parallax/turning effect
-parallaxYMultiplier = 50
+parallaxYMultiplier = 30
 
 while(starDensityUsed < starDensity)
 {
