@@ -4,6 +4,7 @@
 var ship;
 var chance;
 
+
 chance = floor(random(100));
 
 if (chance < 35)
