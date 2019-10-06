@@ -442,7 +442,7 @@
             "Key": "36868102-b4c2-46f5-bcd2-647d21d59e48",
             "Value": {
                 "id": "94f1edee-90b3-4fba-8779-1afc182be34f",
-                "resourcePath": "sprites\\z_emptySprite1\\z_emptySprite1.yy",
+                "resourcePath": "sprites\\spr_UI_ProgressBarMarker\\spr_UI_ProgressBarMarker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -564,6 +564,14 @@
                 "id": "1674cedd-2584-457b-8924-909331fb0620",
                 "resourcePath": "scripts\\TweensTarget\\TweensTarget.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "46805eba-787c-45ae-973e-b47b8235d328",
+            "Value": {
+                "id": "06703b37-acd6-4679-b8a9-356eceee27a2",
+                "resourcePath": "rooms\\rm_starTest\\rm_starTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1279,6 +1287,14 @@
             }
         },
         {
+            "Key": "9d37dd06-ee92-4727-abae-6cb1d1384106",
+            "Value": {
+                "id": "a4d78679-232e-44fb-ae65-2e6dcfdde48b",
+                "resourcePath": "views\\9d37dd06-ee92-4727-abae-6cb1d1384106.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9e456de1-c321-43d6-8cdb-ac58ce9deb9a",
             "Value": {
                 "id": "734c7b04-e12b-4a4f-8ff5-b54581d7de4d",
@@ -1388,6 +1404,14 @@
                 "id": "71631603-b99a-4219-b54c-a2008a581421",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9740ad8-141f-430a-9ec4-083fcd34fbb4",
+            "Value": {
+                "id": "40c7b25e-a604-4898-9e83-d59588cde8b0",
+                "resourcePath": "objects\\obj_starMovement\\obj_starMovement.yy",
+                "resourceType": "GMObject"
             }
         },
         {
