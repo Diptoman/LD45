@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "4e470a2b-01a1-488a-8ccc-9b024c35d1ec",
+            "Value": {
+                "id": "fc0b2d9c-a561-424e-a642-b0ac48994587",
+                "resourcePath": "sprites\\spr_asteroid2\\spr_asteroid2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e7cf76e-c96f-48e5-9713-d6d1d482cecf",
             "Value": {
                 "id": "901e22bf-95ca-4550-a22d-914a39f59eee",
@@ -1215,6 +1223,14 @@
             }
         },
         {
+            "Key": "8de571f3-27fb-48bb-9738-54cee18ba8e1",
+            "Value": {
+                "id": "37ab4ace-7a05-4fab-9a5b-558e92e7d45e",
+                "resourcePath": "sprites\\spr_Shield\\spr_Shield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e1314c0-b3bd-452e-94ac-08a22a65362c",
             "Value": {
                 "id": "c66bcf34-5c61-4ae0-92ea-a7a06805b08f",
@@ -1596,6 +1612,14 @@
                 "id": "315269b3-999e-4292-bbb3-e4700a70b236",
                 "resourcePath": "scripts\\TGMS_Variable_Instance_Set\\TGMS_Variable_Instance_Set.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b9a0777a-31fd-4785-a08d-d0d39dc033e0",
+            "Value": {
+                "id": "b5f77151-3660-4a9a-b466-d30c22b4696e",
+                "resourcePath": "sprites\\spr_asteroid1\\spr_asteroid1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2100,6 +2124,14 @@
                 "id": "abcbe205-de3d-40a1-af71-0f0d068ca9d0",
                 "resourcePath": "scripts\\TweensIncludeDeactivated\\TweensIncludeDeactivated.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fba2f659-6307-4368-9d8f-241bf9f3a8f2",
+            "Value": {
+                "id": "f2c7829a-5afe-44e4-b9e7-207693a207b8",
+                "resourcePath": "sprites\\spr_asteroid3\\spr_asteroid3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
