@@ -1,1 +1,4 @@
-size = irandom_range(2,5)
+startY = y
+offsetY = 0
+previousOffsetY = 0
+
