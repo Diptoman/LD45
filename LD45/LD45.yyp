@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "2f0183eb-fd7b-4a2e-83db-d15b38b53546",
+            "Value": {
+                "id": "d8a46022-d472-4837-878d-ba62ed20bf24",
+                "resourcePath": "objects\\obj_asteroid\\obj_asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2fa501a6-5ac5-42f1-97cb-1322c46b3fbe",
             "Value": {
                 "id": "bc3ecaa8-6cc6-4f53-ad34-d410ae1e98eb",

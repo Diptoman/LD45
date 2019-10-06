@@ -1,1 +1,2 @@
-instance_destroy()
+if (attached!=2)
+	instance_destroy();

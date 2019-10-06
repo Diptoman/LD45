@@ -8,4 +8,10 @@ if (stage == 2)
 	{
 		alarm_set(0, (480 + floor(random(120)) + difficulty * 10));
 	}
+	
+	//Asteroids
+	if (alarm_get(1) < 0)
+	{
+		alarm_set(1, (240 - floor(random(30)) - min(difficulty * 20, 180)));
+	}
 }
