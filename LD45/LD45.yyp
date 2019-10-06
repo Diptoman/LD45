@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05bf716d-9251-4d02-8e32-44b4422801a8",
+            "Value": {
+                "id": "fcef81af-be22-41c8-810b-8f2cb6964fd6",
+                "resourcePath": "objects\\obj_UIProgressBar\\obj_UIProgressBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07075e40-27f6-4eaa-a2b5-aba79ca5503c",
             "Value": {
                 "id": "039b6d2f-9f7e-4b24-a504-c480f0b76d61",
@@ -1458,7 +1466,7 @@
             "Key": "aca30f5b-0229-4de2-9fce-aeedabcc688e",
             "Value": {
                 "id": "540e91b7-bf08-4945-b89b-7271bdf5226f",
-                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
+                "resourcePath": "sprites\\spr_attachbar\\spr_attachbar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1919,6 +1927,14 @@
             }
         },
         {
+            "Key": "df4087c8-3a06-48a9-80ff-04b33e00b99c",
+            "Value": {
+                "id": "fb8e4d80-1ed0-4471-9ca9-67313f85f555",
+                "resourcePath": "objects\\obj_shootyShip\\obj_shootyShip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df6043e5-6757-4e96-b6cd-530ee11c0948",
             "Value": {
                 "id": "c922c36f-6a6d-4347-8d2a-84aad6ef5bfd",
@@ -2156,6 +2172,14 @@
                 "id": "3eb3ff11-8712-4bae-9047-59481a243980",
                 "resourcePath": "scripts\\EaseInOutCubic\\EaseInOutCubic.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fbf3148c-2302-46b9-9c1e-9178d8593466",
+            "Value": {
+                "id": "e6ffd641-7ca7-4424-a433-43df01714cc5",
+                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

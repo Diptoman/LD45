@@ -1,11 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Destroy
-if (x < -256)
+if (obj_controller.stage == 2)
 {
-	instance_destroy();
+	x -= 335 / (60 * totalTime);
 }
-
-//Rotate
-image_angle += speed / 10;

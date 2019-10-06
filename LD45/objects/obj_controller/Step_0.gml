@@ -1,6 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Decrease perStageTime
+if (perStageTime > 0)
+{
+	perStageTime -= 1;
+}
+else
+{
+	difficulty += 1;
+	perStageTime = maxStageTime;
+}
+
 if (stage == 2)
 {
 	//Ships

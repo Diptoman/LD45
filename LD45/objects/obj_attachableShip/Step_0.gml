@@ -1,18 +1,25 @@
 
 if (lerpAttached==0) 
 {
-	if (distance_to_point(obj_MainShip.x, obj_MainShip.y)<obj_MainShip.attachRadius)
+	if (instance_number(obj_MainShip) > 0)
 	{
-		attachX = x - obj_MainShip.x;
-		attachY = y - obj_MainShip.y;
-		lerpAttached = 1;
+		if (distance_to_point(obj_MainShip.x, obj_MainShip.y)<obj_MainShip.attachRadius)
+		{
+			attachX = x - obj_MainShip.x;
+			attachY = y - obj_MainShip.y;
+			lerpAttached = 1;
+		}
+		else
+		{
+			x -= xSpeed;
+		}
 	}
 	else
 	{
 		x -= xSpeed;
 	}
 }
-else if (lerpAttached == 1)
+else if (lerpAttached == 1) && (instance_number(obj_MainShip) > 0)
 {
 	//attachX = x - obj_MainShip.x;
 	//attachY = y - obj_MainShip.y;
@@ -20,11 +27,14 @@ else if (lerpAttached == 1)
 	x -= xSpeed / 2;
 	y = lerp(y, obj_MainShip.y + attachY, attachStrength);
 }
-
-else if attached == 2
+else if (attached == 2) && (instance_number(obj_MainShip) > 0)
 {
 	x = obj_MainShip.x + attachX
 	y = obj_MainShip.y + attachY
+}
+else
+{
+	x -= xSpeed;
 }
 
 //Ship collision
