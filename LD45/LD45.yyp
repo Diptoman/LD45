@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "147c52f4-abfb-4ca6-9ac4-f191ff3ad16d",
+            "Value": {
+                "id": "b8a34a9f-1af8-4907-a0ba-d90463e7b90b",
+                "resourcePath": "sprites\\spr_particleBlue\\spr_particleBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15a75be5-cafc-4fb2-9c28-4e6ec5b680f5",
             "Value": {
                 "id": "ff4ae49b-3ac9-435f-a950-439ea6e314f4",
@@ -780,6 +788,14 @@
                 "id": "ab6346c7-40f0-4d39-8dfa-749a3f18451b",
                 "resourcePath": "scripts\\EaseOutQuart\\EaseOutQuart.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5513fe0c-9c48-492a-8f98-12c8655a47c2",
+            "Value": {
+                "id": "15c060bb-242c-4eba-bd0c-7134597b9050",
+                "resourcePath": "sprites\\spr_particleShield\\spr_particleShield.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1855,6 +1871,14 @@
             }
         },
         {
+            "Key": "cd9eb511-82e3-4b7c-b91f-cffca05cf8ba",
+            "Value": {
+                "id": "6cdf498c-f69a-45dc-a0ce-15bd07dceb3f",
+                "resourcePath": "sprites\\spr_particleCyan\\spr_particleCyan.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d095ce0d-132f-4351-bb73-331727154f98",
             "Value": {
                 "id": "dd8a21c2-fccf-4e7a-9985-03d29146a93f",
@@ -2050,7 +2074,7 @@
             "Key": "e96c4eda-e014-43fe-972b-893cab16ea6d",
             "Value": {
                 "id": "7eec42b7-6035-4b13-a021-2b34843d27e7",
-                "resourcePath": "sprites\\spr_particle2\\spr_particle2.yy",
+                "resourcePath": "sprites\\spr_particleRed\\spr_particleRed.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2276,6 +2300,14 @@
                 "id": "c8f57711-d1bf-4f5f-8342-26168d3edc89",
                 "resourcePath": "datafiles_yy\\TweenGMS\\Safe To Delete Scripts.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "fd42d159-30c4-46c5-92cb-786b9e11a240",
+            "Value": {
+                "id": "0c9d5f3c-c394-47f3-b7a2-b3663dad7699",
+                "resourcePath": "sprites\\spr_particleBullet\\spr_particleBullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
