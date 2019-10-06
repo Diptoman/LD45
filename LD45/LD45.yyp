@@ -1943,6 +1943,14 @@
             }
         },
         {
+            "Key": "d7e083ea-7a72-4870-b6a3-1d1b3b00fc7c",
+            "Value": {
+                "id": "547e62a8-d9e2-4b18-a99f-80a4ebdb466b",
+                "resourcePath": "sprites\\spr_particleAsteroid\\spr_particleAsteroid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d81814f8-b9d0-492d-919f-bda5a487b260",
             "Value": {
                 "id": "eec7080c-fd2f-47b0-9be0-1a23b2e30fc9",

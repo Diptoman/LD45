@@ -11,3 +11,5 @@ attachStrength = 0.1
 attachTime = 120
 detachTimeBuffer = 10;
 xSpeed = 8;
+
+attachRadius = 96;

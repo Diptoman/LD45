@@ -38,7 +38,7 @@ else
 }
 
 //Ship collision
-var l_Coll = collision_circle(x,y, 64, obj_ship, 0, 1);
+var l_Coll = collision_circle(x,y, attachRadius, obj_ship, 0, 1);
 if (l_Coll > 0)
 {
 	if (attached == 0)

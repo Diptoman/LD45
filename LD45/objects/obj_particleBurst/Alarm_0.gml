@@ -1,8 +1,3 @@
-if(type ==1)
-	num = 10
-else
-	num = 15
-
 for(i = 0; i<num; i++)
 {
 	particle = instance_create_layer(x, y, "Shield", obj_particle)
@@ -12,20 +7,10 @@ for(i = 0; i<num; i++)
 	particle.image_yscale = particle.image_xscale
 	
 	particle.life = irandom_range(minLife, maxLife)
-	
-	if(type==1)
-	{
-		particle.image_index = irandom(2)
-		particle.image_angle = particle.direction
-	}
-	else
-	{
-		particle.image_index = 3
-	}
-	
-	if particle.image_index!=0
-		particle.speed/= 2
-		particle.life*=2
+	particle.sprite_index = partSprite;
+	particle.image_index = floor(random(partIndexAmount));
+	particle.image_angle = particle.direction
+
 }
 
 instance_destroy()
