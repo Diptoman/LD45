@@ -9,6 +9,20 @@ if (stage == 1 || stage == 2)
 	for(i = 0; i < 7; i++)
 	{
 		draw_sprite(spr_UI_ProgressBar, 0, -335 + 8 + 335*(perStageTime / maxStageTime) + i*384, room_height - 32);
+		
+		if (i == 1)
+		{
+			draw_set_font(fnt_small);
+			draw_set_alpha(1);
+			draw_set_halign(fa_center);
+			draw_set_valign(fa_top);
+			passcol = make_color_rgb(119, 255, 94);
+			if (armadaSize < requiredArmadaSize)
+				draw_set_color(c_red);
+			else
+				draw_set_color(passcol);
+			draw_text_outline(-345 + 335*(perStageTime / maxStageTime) + i*384, room_height - 29, string(requiredArmadaSize), 4, c_black, 64);
+		}
 	}
 }
 else
@@ -24,8 +38,17 @@ draw_set_alpha(1);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
-draw_text_outline(16, 16, "Armada Size: " + string(armadaSize), 4, c_black, 8);
+draw_text_outline(16, 16, "Armada Size: ", 4, c_black, 8);
+
+passcol = make_color_rgb(119, 255, 94);
+if (armadaSize < requiredArmadaSize)
+	draw_set_color(c_red);
+else
+	draw_set_color(passcol);
+
+draw_text_outline(220, 16, string(armadaSize) + "/" + string(requiredArmadaSize), 4, c_black, 8);
 draw_set_halign(fa_right);
+draw_set_color(c_white);
 draw_text_outline(room_width - 16, 16, string(scr), 4, c_black, 8);
 
 //Tutorial

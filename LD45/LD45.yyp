@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "9ec4ab77-195b-43bb-9ae4-119b589a3f60",
+            "Value": {
+                "id": "5475c3b3-1678-4b02-b6db-e838d31418d8",
+                "resourcePath": "fonts\\fnt_smallish\\fnt_smallish.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "9f83aa69-5494-4719-9a44-6cd02ef6c65e",
             "Value": {
                 "id": "d79b43ac-c82e-4e12-8aa0-f0dda37d9294",
