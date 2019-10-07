@@ -6,13 +6,11 @@ y = lerp(y, offsetY, 0.05)
 
 draw_self()
 
-//draw_set_alpha(0.2)
-//x += 16
-//draw_self()
-
-//draw_set_alpha(0.05)
-//x += 16
-//draw_self()
-
-//x-=32
-//draw_set_alpha(1)
+if(size<obj_starMovement.maxStarSize/1.5 && irandom(100)<1)
+{
+	image_xscale*=2
+	image_yscale = image_xscale
+	draw_self()
+	image_xscale/=2
+	image_yscale = image_xscale
+}
