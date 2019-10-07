@@ -27,13 +27,23 @@ if (stage == 2)
 	//Ships
 	if (alarm_get(0) < 0)
 	{
-		alarm_set(0, (480 + floor(random(120)) + difficulty * 10));
+		alarm_set(0, max(360 - floor(random(60)) - difficulty * 10, 180));
 	}
 	
 	//Asteroids
 	if (alarm_get(1) < 0)
 	{
-		alarm_set(1, (240 - floor(random(30)) - min(difficulty * 20, 180)));
+		alarm_set(1, (150 - floor(random(30)) - min(difficulty * 5, 60)));
+	}
+	
+	if (difficulty > 5)
+	{
+		alarm_set(2, (180 - floor(random(30)) - min((difficulty - 5) * 5, 60)));
+	}
+	
+	if (difficulty > 10)
+	{
+		alarm_set(3, (180 - floor(random(30)) - min((difficulty - 10) * 5, 60)));
 	}
 	
 	scrTimer += 1;
