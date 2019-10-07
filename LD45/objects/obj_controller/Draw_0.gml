@@ -4,7 +4,7 @@
 draw_set_alpha(1);
 draw_sprite(spr_UI_ProgressBarMarker, 0, 16, room_height - 48);
 
-if (stage == 1 || stage == 2)
+if (stage == 1 || stage == 2 || stage == -1)
 {
 	for(i = 0; i < 7; i++)
 	{

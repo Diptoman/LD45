@@ -18,3 +18,6 @@ if (size < 3)
 }
 
 instance_destroy();
+
+if (!audio_is_playing(snd_shipCollide))
+		audio_play_sound(snd_shipCollide, 10, 0);

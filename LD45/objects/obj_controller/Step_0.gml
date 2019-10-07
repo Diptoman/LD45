@@ -18,7 +18,7 @@ else
 	
 	if (!instance_exists(obj_planet))
 	{
-		instance_create_layer(room_width + 384, room_height/2, "Control", obj_planet);
+		instance_create_layer(room_width + 384, room_height/2, "Instances", obj_planet);
 	}
 }
 

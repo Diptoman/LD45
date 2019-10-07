@@ -19,5 +19,6 @@ if (obj_controller.armadaSize < obj_controller.requiredArmadaSize)
 		data = file_text_open_write("GameData.arm");
 		file_text_write_string(data, ds_list_write(global.gamedata));
 		file_text_close(data);
+		global.hiscore = obj_controller.scr;
 	}
 }

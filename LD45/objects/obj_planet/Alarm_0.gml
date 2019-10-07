@@ -10,4 +10,11 @@ if (obj_controller.armadaSize > obj_controller.requiredArmadaSize)
 }
 
 if (obj_controller.armadaSize >= obj_controller.requiredArmadaSize)
+{
 	alarm_set(1, totalStayingTime);
+	audio_play_sound(snd_checkpoint, 10, 0);
+}
+else
+{
+	audio_play_sound(snd_mainShipDestroy, 10, 0);
+}

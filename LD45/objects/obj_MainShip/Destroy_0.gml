@@ -9,3 +9,7 @@ burst.maxLife = 15;
 burst.minSize = .6;
 burst.maxSize = 1;
 burst.type = 1;
+
+instance_create_layer(room_width/2, y, "Control", obj_gameover);
+
+obj_controller.armadaSize -= 1;

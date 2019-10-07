@@ -10,8 +10,6 @@ TweenFire(id, EaseOutQuad, 0, false, 0, 45, x__, - 1366, x);
 
 TweenFire(id, EaseOutQuad, 0, false, 0, 60, image_alpha__, 0, 1);
 
-global.gamedata = ds_list_create();
-
 data = file_text_open_read("GameData.arm");
 if (data == -1)
 {
@@ -24,7 +22,7 @@ else
 	file_text_close(data);
 }
 
-if (ds_list_size(data) == 0)
+if (ds_list_size(global.gamedata) == 0)
 {
 	ds_list_add(global.gamedata, 0);
 	data = file_text_open_write("GameData.arm");

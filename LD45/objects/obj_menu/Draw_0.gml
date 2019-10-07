@@ -3,6 +3,7 @@
 
 if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("X")))
 {
+	audio_play_sound(snd_connect, 10, 0);
 	room_goto(rm_main);
 }
 

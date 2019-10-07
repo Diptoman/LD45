@@ -29,4 +29,7 @@ if (instance_number(obj_MainShip) > 0)
 		
 	if (x < obj_MainShip.x - obj_MainShip.currentMinXOffset)
 		obj_MainShip.currentMinXOffset = abs(x - obj_MainShip.x);*/
+		
+	if (!audio_is_playing(snd_connect))
+		audio_play_sound(snd_connect, 10, 0);
 }
