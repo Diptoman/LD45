@@ -3,7 +3,7 @@
 
 if (other.attached == 2)
 {
-	create_text(other.x, other.y, "Collision!", 2, 48, 60, c_red, fnt_small);
+	create_text(other.x, other.y, "Ship Lost!", 2, 48, 60, c_red, fnt_small);
 	with (other) instance_destroy();
 }
 	

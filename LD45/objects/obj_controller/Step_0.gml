@@ -4,7 +4,8 @@
 //Decrease perStageTime
 if (perStageTime > 0)
 {
-	perStageTime -= 1;
+	if (stage == 2)
+		perStageTime -= 1;
 }
 else
 {
@@ -33,5 +34,35 @@ if (stage == 2)
 	if (alarm_get(1) < 0)
 	{
 		alarm_set(1, (240 - floor(random(30)) - min(difficulty * 20, 180)));
+	}
+}
+
+//Stage 1 (tutorial part)
+if (stage == 1)
+{
+	if (difficulty == 1)
+	{
+		if (instance_number(obj_BasicShip) == 0)
+		{
+			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_BasicShip);
+		}
+	}
+	else if (difficulty == 2)
+	{
+		if (instance_number(obj_shootyShip) == 0)
+		{
+			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_shootyShip);
+		}
+	}
+	else if (difficulty == 3)
+	{
+		if (instance_number(obj_shieldShip) == 0)
+		{
+			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_shieldShip);
+		}
+	}
+	else
+	{
+		stage = 2;
 	}
 }

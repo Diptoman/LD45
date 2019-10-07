@@ -69,3 +69,7 @@ if (instance_exists(obj_planet) && (attached < 2))
 {
 	instance_destroy();
 }
+
+
+if (x < - 108)
+	instance_destroy();

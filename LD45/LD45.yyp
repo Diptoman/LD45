@@ -1615,6 +1615,14 @@
             }
         },
         {
+            "Key": "acd61e89-1bd1-484b-b6b8-2b2f1d984b26",
+            "Value": {
+                "id": "f9eaa514-32db-45ec-911c-229b1af6e971",
+                "resourcePath": "fonts\\fnt_normal\\fnt_normal.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "acf73b86-4d3c-4ccc-aa8b-2a296ef247a6",
             "Value": {
                 "id": "e1ea0ec9-08bd-4ac3-a6d2-2deff7763858",
