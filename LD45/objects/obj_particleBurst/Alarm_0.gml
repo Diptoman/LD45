@@ -13,4 +13,5 @@ for(i = 0; i<num; i++)
 
 }
 
+instance_create_depth(0,0, 99, obj_screenShake)
 instance_destroy()

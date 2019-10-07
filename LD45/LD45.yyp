@@ -1623,6 +1623,14 @@
             }
         },
         {
+            "Key": "a31b8710-0143-472a-b424-5418811e5c1c",
+            "Value": {
+                "id": "069f2403-c967-4a35-b8ba-d4e10da7e01a",
+                "resourcePath": "objects\\obj_screenShake\\obj_screenShake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5f23b91-6f49-4082-a33e-08b642118617",
             "Value": {
                 "id": "9a25b659-b119-46cc-9084-a2abe578d533",
