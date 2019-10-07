@@ -11,3 +11,5 @@ burst.maxSize = 1;
 burst.minSpeed = 7;
 burst.maxSpeed = 15;
 burst.type = 1;
+
+create_text(other.x, other.y, "Shield Down!", 2, 48, 60, c_aqua, fnt_small);

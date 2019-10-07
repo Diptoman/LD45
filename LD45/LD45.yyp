@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0612f3ee-5017-411d-96cd-35254f44bc39",
+            "Value": {
+                "id": "c7faad22-3387-4f8b-b83a-39cff4922223",
+                "resourcePath": "objects\\obj_text\\obj_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07075e40-27f6-4eaa-a2b5-aba79ca5503c",
             "Value": {
                 "id": "039b6d2f-9f7e-4b24-a504-c480f0b76d61",
@@ -524,6 +532,14 @@
                 "id": "94f1edee-90b3-4fba-8779-1afc182be34f",
                 "resourcePath": "sprites\\spr_UI_ProgressBarMarker\\spr_UI_ProgressBarMarker.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3761bf0a-793c-4ddf-a295-e687e9f595bb",
+            "Value": {
+                "id": "2e3ad99b-592e-48d5-8923-4ed5f850f314",
+                "resourcePath": "scripts\\create_text\\create_text.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1460,6 +1476,14 @@
                 "id": "d79b43ac-c82e-4e12-8aa0-f0dda37d9294",
                 "resourcePath": "scripts\\EaseInOutQuad\\EaseInOutQuad.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9fb686a4-5769-4984-84df-7f81df085c20",
+            "Value": {
+                "id": "3edc60cb-c659-41ed-9ef1-6602b9f341f9",
+                "resourcePath": "fonts\\fnt_small\\fnt_small.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -2603,7 +2627,8 @@
         "2befc192-a5ba-4ea5-aa1f-5df90217ce5f",
         "c00cc16b-9037-4738-afaf-99d51971a32c",
         "2da4c431-1a98-4094-8b3d-d855463c81a6",
-        "ad7d0277-d28f-459a-a349-aea331d2cc15"
+        "ad7d0277-d28f-459a-a349-aea331d2cc15",
+        "3761bf0a-793c-4ddf-a295-e687e9f595bb"
     ],
     "tutorial": ""
 }

@@ -7,6 +7,8 @@ if (instance_number(obj_MainShip) > 0)
 	obj_controller.armadaSize +=1;
 	TweenFire(id, EaseOutQuad, 0, false, 0, 30, image_xscale__, -1, 1); 
 	
+	create_text(x, y - 32, "Attached!", 2, 48, 90, c_aqua, fnt_small);
+	
 	XOffset = x - obj_MainShip.x;
 	YOffset = y - obj_MainShip.y;
 	
