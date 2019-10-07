@@ -21,4 +21,6 @@ if (size < 3)
 	ast.size = size + 1;
 	ast.direction = direction - 150 + floor(random(15));
 }
+
+instance_create_depth(0,0, 99, obj_screenShake);
 }

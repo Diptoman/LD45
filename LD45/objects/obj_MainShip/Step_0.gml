@@ -4,15 +4,19 @@ if keyboard_check(vk_up)
 	speedY -= accel
 else if keyboard_check(vk_down)
 	speedY += accel
-else if abs(speedY)>0
+else if abs(speedY)>1
 	speedY -= speedY/abs(speedY)*brake
+else
+	speedY = 0;
    
 if keyboard_check(vk_left)
 	speedX -= accel
 else if keyboard_check(vk_right)
 	speedX += accel
-else if abs(speedX)>0
+else if abs(speedX)>1
 	speedX -= speedX/abs(speedX)*brake
+else
+	speedX = 0;
 
 if (speedX > maxSpeed)
 	speedX = maxSpeed;

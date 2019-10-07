@@ -7,6 +7,11 @@ if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || keyb
 	room_goto(rm_main);
 }
 
+if (!audio_is_playing(snd_bg))
+{
+	audio_play_sound(snd_bg, 10, 1);
+}
+
 //draw_set_alpha(1);
 draw_self();
 
@@ -19,7 +24,9 @@ draw_text_outline(room_width / 2, room_height / 2 + 16, "Press Enter To Begin.",
 
 draw_set_color(c_white);
 draw_set_font(fnt_normal);
-draw_text_outline(room_width / 2, room_height / 2 + 192, "Current Hi-Score: " + string(global.hiscore), 4, c_black, 64);
+draw_text_outline(room_width / 2, room_height / 2 + 160, "Current Hi-Score: " + string(global.hiscore), 4, c_black, 64);
 
 draw_set_font(fnt_small);
+if (os_browser == browser_not_a_browser)
+	draw_text_outline(room_width / 2, room_height / 2 + 256, "Press F4 to toggle fullscreen.", 2, c_black, 64);
 draw_text_outline(room_width / 2, room_height / 2 + 356, "Made by Diptoman Mukherjee (Programming, Design), Pranjal Bisht (Art, Design) and Joel Montpetit (Audio) for Ludum Dare 45.", 2, c_black, 64);

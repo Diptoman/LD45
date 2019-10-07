@@ -12,6 +12,4 @@ for(i = 0; i<num; i++)
 	particle.image_angle = particle.direction
 
 }
-
-instance_create_depth(0,0, 99, obj_screenShake)
 instance_destroy()
