@@ -7,4 +7,5 @@ TweenFire(id, EaseOutQuad, 0, false, 30, 10, y__, y + 350, y + 320);
 TweenFire(id, EaseOutQuad, 0, false, 0, 30, image_scale__, 0, 1.2);
 TweenFire(id, EaseOutQuad, 0, false, 30, 10, image_scale__, 1.2, 1);
 
-alarm_set(0, obj_planet.totalStayingTime);
+if (obj_controller.armadaSize >= obj_controller.requiredArmadaSize)
+	alarm_set(0, obj_planet.totalStayingTime);

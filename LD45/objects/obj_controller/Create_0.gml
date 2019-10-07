@@ -13,4 +13,5 @@ alarm_set(1, 120);
 
 randomize();
 
-audio_play_sound(snd_bg, 10, true);
+scr = 0;
+scrTimer = 0;

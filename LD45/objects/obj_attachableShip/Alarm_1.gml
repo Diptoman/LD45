@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (isAttaching == false)
+if (isAttaching == false) && (attached < 2)
 {
 	instance_destroy();
 	

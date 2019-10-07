@@ -18,6 +18,6 @@ if (obj_controller.armadaSize >= obj_controller.requiredArmadaSize)
 else
 {
 	draw_set_color(c_red);
-	draw_text_outline(x, y, "Not enough ships.#Game Over!", 4, c_black, 64);	
+	draw_text_outline(x, y, "Not enough ships.#Game Over!#Press R to retry.", 4, c_black, 64);	
 }
 }

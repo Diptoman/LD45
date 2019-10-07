@@ -35,30 +35,36 @@ if (stage == 2)
 	{
 		alarm_set(1, (240 - floor(random(30)) - min(difficulty * 20, 180)));
 	}
+	
+	scrTimer += 1;
+	
+	if ((scrTimer mod 10) == 0)
+		scr += 1;
 }
 
 //Stage 1 (tutorial part)
 if (stage == 1)
 {
+	scrTimer = 0;
 	if (difficulty == 1)
 	{
 		if (instance_number(obj_BasicShip) == 0)
 		{
-			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_BasicShip);
+			instance_create_layer(room_width + 64, 72 + floor(random(room_height - 160)), "Control", obj_BasicShip);
 		}
 	}
 	else if (difficulty == 2)
 	{
 		if (instance_number(obj_shootyShip) == 0)
 		{
-			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_shootyShip);
+			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 160)), "Control", obj_shootyShip);
 		}
 	}
 	else if (difficulty == 3)
 	{
 		if (instance_number(obj_shieldShip) == 0)
 		{
-			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 128)), "Control", obj_shieldShip);
+			instance_create_layer(room_width + 64, 64 + floor(random(room_height - 160)), "Control", obj_shieldShip);
 		}
 	}
 	else

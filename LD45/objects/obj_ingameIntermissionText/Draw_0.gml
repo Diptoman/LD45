@@ -14,10 +14,14 @@ if (obj_controller.armadaSize > obj_controller.requiredArmadaSize)
 
 	draw_set_color(c_aqua);
 	draw_set_halign(fa_center);
-	draw_text_outline(x - 2, y, string(obj_controller.armadaSize - obj_controller.requiredArmadaSize) + " x 1000", 4, c_black, 16);
+	draw_text_outline(x - 2, y, string(obj_controller.armadaSize - obj_controller.requiredArmadaSize) + " x 100", 4, c_black, 16);
 }
 
+draw_set_color(c_aqua);
 if (obj_controller.armadaSize < obj_controller.requiredArmadaSize)
 {
-	draw_text_outline(x, y, "Insufficient Armada Size!", 4, c_black, 16);
+	if (obj_controller.scr > global.hiscore)
+	{
+		draw_text_outline(x, y, "New hi-score!", 4, c_black, 16);
+	}
 }

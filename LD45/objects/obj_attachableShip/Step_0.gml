@@ -54,7 +54,7 @@ else
 {
 	isShipColliding = false;
 	
-	if (isAttaching == true)
+	if (isAttaching == true) && (attached < 2)
 	{
 		if (alarm_get(1) < 0)
 		{

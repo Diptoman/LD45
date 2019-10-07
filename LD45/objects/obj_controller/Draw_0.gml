@@ -25,6 +25,8 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_text_outline(16, 16, "Armada Size: " + string(armadaSize), 4, c_black, 8);
+draw_set_halign(fa_right);
+draw_text_outline(room_width - 16, 16, string(scr), 4, c_black, 8);
 
 //Tutorial
 if (stage == 1)
@@ -37,7 +39,7 @@ if (stage == 1)
 	
 	if (difficulty == 1)
 	{
-		draw_text_outline(room_width/2, room_height - 96, "Attach your ship to another by staying inside its circular zone.", 4, c_black, 8);
+		draw_text_outline(room_width/2, room_height - 128, "Use Arrow Keys to move.#Attach your ship to another by staying inside its circular zone.", 4, c_black, 8);
 	}
 	else if (difficulty == 2)
 	{

@@ -4,4 +4,10 @@
 instance_create_layer(x, y, "Control", obj_ingameIntermissionText);
 instance_create_layer(x, y, "Control", obj_ingameIntermissionTextTop);
 
-alarm_set(1, totalStayingTime);
+if (obj_controller.armadaSize > obj_controller.requiredArmadaSize)
+{
+	obj_controller.scr += (obj_controller.armadaSize - obj_controller.requiredArmadaSize) * 100;
+}
+
+if (obj_controller.armadaSize >= obj_controller.requiredArmadaSize)
+	alarm_set(1, totalStayingTime);
