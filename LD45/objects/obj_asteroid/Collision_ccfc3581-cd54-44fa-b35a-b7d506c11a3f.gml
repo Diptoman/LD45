@@ -5,7 +5,12 @@ if (other.attached == 2)
 {
 	create_text(other.x, other.y, "Ship Lost!", 2, 48, 60, c_red, fnt_small);
 	with (other) instance_destroy();
-}
+	
+	instance_destroy();
+
+	if (!audio_is_playing(snd_shipCollide))
+		audio_play_sound(snd_shipCollide, 10, 0);
+
 	
 if (size < 3)
 {
@@ -16,8 +21,4 @@ if (size < 3)
 	ast.size = size + 1;
 	ast.direction = direction - 150 + floor(random(15));
 }
-
-instance_destroy();
-
-if (!audio_is_playing(snd_shipCollide))
-		audio_play_sound(snd_shipCollide, 10, 0);
+}
