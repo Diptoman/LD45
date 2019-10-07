@@ -43,12 +43,17 @@ if (stage == 2)
 	
 	if (difficulty > 5)
 	{
-		alarm_set(2, (180 - floor(random(30)) - min((difficulty - 5) * 5, 60)));
+		alarm_set(2, (180 - floor(random(30)) - min((difficulty - 5) * 5, 90)));
 	}
 	
 	if (difficulty > 10)
 	{
-		alarm_set(3, (180 - floor(random(30)) - min((difficulty - 10) * 5, 60)));
+		alarm_set(3, (150 - floor(random(30)) - min((difficulty - 10) * 5, 90)));
+	}
+	
+	if (difficulty > 20)
+	{
+		alarm_set(4, (150 - floor(random(30)) - min((difficulty - 20) * 5, 90)));
 	}
 	
 	scrTimer += 1;

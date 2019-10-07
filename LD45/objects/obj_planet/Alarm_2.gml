@@ -12,7 +12,7 @@ if (obj_controller.armadaSize >= obj_controller.requiredArmadaSize)
 	if (obj_controller.requiredArmadaSize < 15)
 		obj_controller.requiredArmadaSize += 2;
 	else
-		obj_controller.requiredArmadaSize = min(obj_controller.requiredArmadaSize + 1, 40);
+		obj_controller.requiredArmadaSize += 1;
 	
 	instance_destroy();
 }
