@@ -13,3 +13,6 @@ detachTimeBuffer = 10;
 xSpeed = 8;
 
 attachRadius = 96;
+
+XOffset = 0;
+YOffset = 0;

@@ -2,7 +2,12 @@
 // You can write your code in this editor
 
 //Destroy
-if (x < -256)
+if (x < -384)
+{
+	instance_destroy();
+}
+
+if (instance_exists(obj_planet))
 {
 	instance_destroy();
 }

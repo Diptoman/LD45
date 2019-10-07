@@ -63,3 +63,9 @@ else
 		isAttaching = false;
 	}
 }
+
+//Destroy on planet
+if (instance_exists(obj_planet) && (attached < 2))
+{
+	instance_destroy();
+}

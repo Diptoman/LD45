@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-difficulty = 1;
+difficulty = 10;
 perStageTime = 600;
 maxStageTime = 600;
+armadaSize = 1;
+requiredArmadaSize = 2;
 
 stage = 2;
 

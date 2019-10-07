@@ -8,8 +8,17 @@ if (perStageTime > 0)
 }
 else
 {
-	difficulty += 1;
-	perStageTime = maxStageTime;
+	//difficulty += 1;
+	//perStageTime = maxStageTime;
+	stage = 3;
+	alarm_set(0, -1);
+	alarm_set(1, -1);
+	alarm_set(2, -1);
+	
+	if (!instance_exists(obj_planet))
+	{
+		instance_create_layer(room_width + 384, room_height/2, "Control", obj_planet);
+	}
 }
 
 if (stage == 2)

@@ -23,6 +23,28 @@ if (speedY > maxSpeed)
 	speedY = maxSpeed;
 else if (speedY < -maxSpeed)
 	speedY = -maxSpeed;
+	
+if (ds_list_size(XOffsetList) > 0)
+{
+	currentMaxXOffset = max(ds_list_find_value(XOffsetList, ds_list_size(XOffsetList) - 1), 0);
+	currentMinXOffset = abs(min(ds_list_find_value(XOffsetList, 0), 0));
+}
+else
+{
+	currentMaxXOffset = 0;
+	currentMinXOffset = 0;
+}
+	
+if (ds_list_size(YOffsetList) > 0)
+{
+	currentMaxYOffset = max(ds_list_find_value(YOffsetList, ds_list_size(YOffsetList) - 1), 0);
+	currentMinYOffset = abs(min(ds_list_find_value(YOffsetList, 0), 0));
+}
+else
+{
+	currentMaxYOffset = 0;
+	currentMinYOffset = 0;
+}
 
 if (x + speedX + currentMaxXOffset > room_width)
 	speedX = 0;
